@@ -1,0 +1,10 @@
+
+
+<h3 style = "text-align: center">UserList</h3>
+<ul>
+    <li *ngFor = "let u of users">
+        <a [routerLink] = "details/u.id">
+            {{u.name}}
+        </a>
+    </li>
+</ul>

@@ -1,0 +1,10 @@
+
+
+<h3 style = "text-align: center">CustomerList</h3>
+<ul>
+    <li *ngFor = "let c of customers">
+        <a [routerLink] = "details/c.id">
+           {{c.name}}
+        </a>
+    </li>
+</ul>
